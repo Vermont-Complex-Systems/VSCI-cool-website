@@ -29,7 +29,7 @@
     ],
     "dek": "Describe, Explain, Create, Share. Our ethos: Serious Play.",
     "background": {
-        "detailsSummary": "How and why The Pudding exists",
+        "detailsSummary": "How and why Complex Systems exists",
         "detailsText": [
             {
                 "type": "text",
@@ -83,32 +83,8 @@
         "detailsText": "Our team’s backgrounds are pretty varied. There is certainly more than one way to enter this field! Here’s the short version of each of our stories:",
         "detailsList": [
             {
-                "lead": "Caitlyn",
-                "description": "Started in psychology / neuroscience research—ended up with a Bachelors in computer science (focus data science / journalism) and a Masters in data visualization. Worked heavily in music journalism throughout college. Spent a couple years transitioning into management as Studio Lead for Polygraph."
-            },
-            {
-                "lead": "Ilia",
-                "description": "Studied psychology and political science before pursuing psychological research in graduate school; took a detour into freelance journalism before finding data-driven storytelling through Columbia’s Lede program."
-            },
-            {
-                "lead": "Jan",
-                "description": "Began journalism career covering middle school sports for the <a href=https://www.facebook.com/RCTimes/?__tn__=C-R target=_blank>local paper</a> while in high school. Studied journalism &amp; photojournalism in <a href=https://www.wku.edu/schoolofmedia/index.php target=_blank>college</a>. First job was doing <a href=http://jandiehmdesigns.com/#/newspaper-design/ target=_blank>newspaper page design</a>. Transitioned to web design and data journalism from there."
-            },
-            {
-                "lead": "Kevin",
-                "description": "Studied philosophy in college, then wrote about tech and culture for a bit before attending Columbia’s Lede program (like Ilia) to pick up data journalism skills."
-            },
-            {
-                "lead": "Matt",
-                "description": "Self-taught, with a degree in business and 7 years of experience making powerpoint slides."
-            },
-            {
-                "lead": "Michelle",
-                "description": "Studied computer science and worked as a software engineer before discovering the world of visual, data-driven storytelling (through The Pudding!)."
-            },
-            {
-                "lead": "Russell",
-                "description": "Computer science &rarr; creative coding &rarr; interactive documentary &rarr; games for civic engagement &rarr; data visualization &rarr; data journalism."
+                "lead": "Jonathan",
+                "description": "Drawing from the Pudding to do his stuff"
             }
         ]
     },
