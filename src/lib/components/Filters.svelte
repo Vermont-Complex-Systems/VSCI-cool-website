@@ -23,7 +23,7 @@
       class:active
       on:click={() => (activeFilter = slug === activeFilter ? undefined : slug)}
     >
-      <span class="ascii">{slug === "our_faves" ? "🌟" : slug === "popular" ? "🔥" : "📈"}</span>
+      <span class="ascii">{slug === "in_theory" ? "🧠" : slug === "our_faves" ? "🌟" : slug === "popular" ? "🔥" : "📈"}</span>
       <span class="name">{filter}</span>
     </button>
   {/each}

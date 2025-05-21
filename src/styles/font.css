@@ -64,7 +64,7 @@
 
 @font-face {
 	font-family: "Acumin Pro";
-	src: url("https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/acumin-pro/acumin-pro-regular.woff2") format("woff2");
+	src: url("https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/acumin-pro/acumin-pro-medium.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
@@ -73,7 +73,7 @@
 
 @font-face {
 	font-family: "Acumin Pro";
-	src: url("https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/acumin-pro/acumin-pro-bold.woff2") format("woff2");
+	src: url("https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/acumin-pro/acumin-pro-cond-bold.woff2") format("woff2");
 	font-weight: 700;
 	font-style: normal;
 	font-stretch: normal;

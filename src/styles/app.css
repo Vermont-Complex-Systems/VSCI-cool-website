@@ -8,7 +8,7 @@
 	/* font */
 	--sans: "Lora", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 	--serif: "Acumin Pro", Iowan Old Style, Times New Roman, Times, serif;
-	--mono: "Acumin Pro", Menlo, Consolas, Monaco, monospace;
+	--mono: "Lora", Menlo, Consolas, Monaco, monospace;
 
 	/* z-index */
 	--z-bottom: -100;
