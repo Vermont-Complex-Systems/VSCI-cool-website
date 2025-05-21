@@ -49,7 +49,7 @@
     <ul>
       <li>
         <a href="{base}/about" aria-label="About" target="_self"
-          ><img src="/assets/stickers/about@2x.png" alt="about sticker" /></a
+          ><img src="{base}/assets/stickers/about@2x.png" alt="about sticker" /></a
         >
       </li>
 
