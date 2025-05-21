@@ -7,6 +7,7 @@
 	font-display: swap;
 }
 
+
 @font-face {
 	font-family: "Atlas Grotesk";
 	src: url("https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/atlas/AtlasGrotesk-Bold-Web.woff2") format("woff2");
@@ -38,6 +39,24 @@
 	font-family: "Atlas Typewriter";
 	src: url("https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/atlas/AtlasTypewriter-Medium-Web.woff2") format("woff2");
 	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lora";
+	src: url("https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/lora/Lora-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lora";
+	src: url("https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/lora/Lora-Bold.woff2") format("woff2");
+	font-weight: 700;
 	font-style: normal;
 	font-stretch: normal;
 	font-display: swap;

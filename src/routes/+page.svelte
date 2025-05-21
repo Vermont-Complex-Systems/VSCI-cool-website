@@ -17,7 +17,9 @@
     "https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/tiempos/TiemposTextWeb-Bold.woff2",
     "https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/atlas/AtlasGrotesk-Regular-Web.woff2",
     "https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/atlas/AtlasGrotesk-Bold-Web.woff2",
-    "https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/atlas/AtlasTypewriter-Medium-Web.woff2"
+    "https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/atlas/AtlasTypewriter-Medium-Web.woff2",
+    "https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/lora/Lora-Regular.woff2",
+    "https://vermont-complex-systems.github.io/VSCI-cool-website/assets/fonts/lora/Lora-Bold.woff2"
   ];
 
   const { stories, staff } = data;
