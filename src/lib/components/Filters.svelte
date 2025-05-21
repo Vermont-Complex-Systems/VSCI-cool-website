@@ -18,12 +18,17 @@
   {#each filters as filter, i}
     {@const slug = filter?.toLowerCase()?.replace(/[^a-z]/g, "_")}
     {@const active = override ? slug === override : slug === activeFilter || !activeFilter}
-    <button class="{i % 2 === 0 ? 'button-even': ''}" class:active onclick={() => (activeFilter = slug === activeFilter ? undefined : slug)}>
-      <img class="icon" src="{base}/assets/stickers/{slug}@2x.png" alt="{slug} sticker" />
+    <button
+      class="{i % 2 === 0 ? 'button-even' : ''}"
+      class:active
+      on:click={() => (activeFilter = slug === activeFilter ? undefined : slug)}
+    >
+      <span class="ascii">{slug === "our_faves" ? "🌟" : slug === "popular" ? "🔥" : "📈"}</span>
       <span class="name">{filter}</span>
     </button>
   {/each}
 </div>
+
 
 <div class="filters--mobile">
   <!-- <label for="filter-select">Filter by</label> -->
@@ -40,6 +45,13 @@
   .filters--desktop {
     display: flex;
     align-items: center;
+  }
+
+  .filters--desktop .ascii {
+    font-size: 1.5rem;
+    margin-right: 8px;
+    line-height: 1;
+    display: inline-block;
   }
 
   .filters--desktop button {

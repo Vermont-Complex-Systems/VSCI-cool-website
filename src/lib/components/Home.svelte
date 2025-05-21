@@ -8,7 +8,7 @@
 
   const initMax = 27;
   const { stories } = getContext("Home");
-  const filters = ["Our Faves", "Popular", "Updating"];
+  const filters = ["Our Faves", "Popular", "Dashboard"];
 
   let maxStories = $state(initMax);
   let storiesEl = undefined;

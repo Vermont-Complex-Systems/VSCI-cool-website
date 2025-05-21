@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import { base } from "$app/paths";
   import { getContext } from "svelte";
   import { shuffle } from "d3";
@@ -111,4 +111,4 @@
     color: var(--color-secondary-gray);
     text-decoration: underline 2px var(--color-secondary-gray);
   }
-</style>
+</style> -->
