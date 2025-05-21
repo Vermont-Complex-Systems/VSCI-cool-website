@@ -12,10 +12,10 @@
   let { recirc = false, recent = true, recircImages = false } = $props();
 
   const v = Date.now();
-  const url = `https://vermont.github.io/assets/data/stories.json?v=${v}`;
+  const url = `https://vermont-complex-systems.github.io/VSCI-cool-website/assets/data/stories.json?v=${v}`;
 
   const about = [
-    { name: "Our Team", url: "https://vermontcomplexsystems.org/people/core-team/" },
+    { name: "Our Team", url: "https://vermont-complex-systems.github.io/VSCI-cool-website/about/" },
   ];
 
   const follow = [

@@ -35,7 +35,7 @@ async function findOgImageUrl(url) {
 (async () => {
   for (const story of stories) {
     try {
-      const url = story.url_alt || `https://pudding.cool/${story.url}`;
+      const url = story.url_alt || `https://vermont-complex-systems.github.io/VSCI-cool-website/${story.url}`;
       const slug = slugify(story.url);
       const skip = await exists(slug);
       if (!skip) {

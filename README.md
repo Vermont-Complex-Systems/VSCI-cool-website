@@ -4,7 +4,7 @@ _We adapted this starter pack from https://github.com/the-pudding/svelte-starter
 
 **NOTE**: This uses Svelte 5 and is under active migration (not all features will work)..
 
-This [starter template](https://github.com/the-pudding/svelte-starter) aims to quickly scaffold a [SvelteKit](https://kit.svelte.dev/) project, designed around data-driven, visual stories at [The Vermont Complex System Institute](https://pudding.cool).
+This [starter template](https://github.com/the-pudding/svelte-starter) aims to quickly scaffold a [SvelteKit](https://kit.svelte.dev/) project, designed around data-driven, visual stories at [The Vermont Complex System Institute](vermont-complex-systems.github.io/VSCI-cool-website/).
 
 ### Notes
 * _Do not use or reproduce VCSI logos or fonts without written permission._

@@ -49,7 +49,7 @@
     </p>
 
     {#if position === "Staff" && email}
-      <p>Get in touch: <a href="mailto:{email}">{first}@pudding.cool</a></p>
+      <p>Get in touch: <a href="mailto:{email}">{first}@uvm.edu</a></p>
     {/if}
   </HeroText>
 </section>

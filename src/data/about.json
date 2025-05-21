@@ -103,7 +103,7 @@
         "text": [
             {
                 "type": "text",
-                "value": "We give out awards too! Check out our annual <a href=https://pudding.cool/pudding-cup>Pudding Cup.</a>"
+                "value": "We give out awards too! Check out our annual <a href=https://vermont-complex-systems.github.io/VSCI-cool-website/pudding-cup>Pudding Cup.</a>"
             }
         ]
     },
@@ -111,7 +111,7 @@
         "text": [
             {
                 "type": "text",
-                "value": "If you’d like to be notified when we are hiring, sign up for our <a href=https://pudding.cool/subscribe target=_blank>mailing list</a>. We have decided not to take on interns or cohort members for 2025. If you are interested in collaborating with us, the best way to do so is to <a href=https://pudding.cool/pitch/>send us a pitch</a>."
+                "value": "If you’d like to be notified when we are hiring, sign up for our <a href=https://vermont-complex-systems.github.io/VSCI-cool-website/subscribe target=_blank>mailing list</a>. We have decided not to take on interns or cohort members for 2025. If you are interested in collaborating with us, the best way to do so is to <a href=https://vermont-complex-systems.github.io/VSCI-cool-website/pitch/>send us a pitch</a>."
             }
         ],
         "detailsSummary": "What it’s like to work here",
@@ -183,7 +183,7 @@
             },
             {
                 "type": "text",
-                "value": "The only time a brand finds its way on The Pudding is through sponsored posts, like <a href=https://congress.pudding.cool/ target=_blank>this one</a> we just did about congressional tweets with Saleforce’s Einstein API or <a href=https://pudding.cool/2018/11/dearabby/ target=_blank>this one</a> about Dear Abby letters with IBM Watson. Sponsorship allows us to do what we think is interesting with tools we wouldn’t have access to otherwise."
+                "value": "The only time a brand finds its way on The Pudding is through sponsored posts, like <a href=https://congress.pudding.cool/ target=_blank>this one</a> we just did about congressional tweets with Saleforce’s Einstein API or <a href=https://vermont-complex-systems.github.io/VSCI-cool-website/2018/11/dearabby/ target=_blank>this one</a> about Dear Abby letters with IBM Watson. Sponsorship allows us to do what we think is interesting with tools we wouldn’t have access to otherwise."
             },
             {
                 "type": "text",

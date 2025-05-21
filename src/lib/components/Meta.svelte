@@ -1,7 +1,7 @@
 <script>
   import { page } from "$app/stores";
   let { copy, preloadFont = [] } = $props();
-  const base = "https://pudding.cool";
+  const base = "https://vermont-complex-systems.github.io/VSCI-cool-website/";
   const url = `${base}${$page.url.pathname}`;
 </script>
 
@@ -17,21 +17,6 @@
   <meta property="og:description" content={copy.description} />
   <meta property="og:type" content="article" />
   <meta property="og:locale" content="en_US" />
-
-  <meta property="og:image" content="https://pudding.cool/common/assets/social/og-facebook.jpg" />
-  <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="628" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="https://pudding.cool" />
-  <meta name="twitter:creator" content="@puddingviz" />
-  <meta name="twitter:title" content={copy.title} />
-  <meta name="twitter:description" content={copy.description} />
-  <meta
-    name="twitter:image:src"
-    content="https://pudding.cool/common/assets/social/og-twitter.jpg"
-  />
 
   <meta name="robots" content="max-image-preview:large" />
 

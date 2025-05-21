@@ -41,7 +41,7 @@
     </p>
   </div>
   <div class="wordmark">
-		<a href="https://pudding.cool/" aria-label="The Pudding" target="_self">
+		<a href="https://vermont-complex-systems.github.io/VSCI-cool-website/" aria-label="The Pudding" target="_self">
       		<img src={wordmark} alt="The Pudding" />
     	</a>
 	</div>
@@ -55,7 +55,7 @@
 
       <!-- <li>
         <a
-          href="https://pudding.cool/subscribe"
+          href="https://vermont-complex-systems.github.io/VSCI-cool-website/subscribe"
           rel="external"
           aria-label="subscribe"
           target="_self"
