@@ -3,13 +3,6 @@
  */
 
 :root {
-  --category-blue: #4477AA;
-  --category-red: #EE6677;
-  --category-green: #228833;
-  --category-yellow: #CCBB44;
-  --category-cyan: #66CCEE;
-  --category-purple: #AA3377;
-  --category-gray: #BBBBBB;
   --color-black: #000000;
   --color-white: #ffffff;
   --color-gray-50: rgb(247, 247, 247);
@@ -24,8 +17,9 @@
   --color-gray-900: rgb(38, 38, 38);
   --color-gray-1000: rgb(25, 25, 25);
   --color-purple: #a239ca;
+  --color-electric-green: #3AE660;
   --color-blue: #4717f6;
-  --color-green: #34a29e;
+  --color-green: #3AE660;
   --color-red: #ff533d;
   --color-yellow: #e5e338;
   --12px: 0.75rem;
@@ -47,8 +41,4 @@
   --96px: 6rem;
   --112px: 7rem;
   --128px: 8rem;
-  --144px: 9rem;
-  --160px: 10rem;
-  --176px: 11rem;
-  --192px: 12rem;
 }

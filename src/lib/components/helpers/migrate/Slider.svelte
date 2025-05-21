@@ -9,8 +9,8 @@ html, body, main {
 
 Usage:
 <script>
-	import Slider from "$components/helpers/Slider.svelte";
-	import Slide from "$components/helpers/Slider.Slide.svelte";
+	import Slider from "$lib/components/helpers/Slider.svelte";
+	import Slide from "$lib/components/helpers/Slider.Slide.svelte";
 
 	let sliderEl; // component binding
 

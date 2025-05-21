@@ -4,7 +4,7 @@
   import { shuffle } from "d3";
   import wordmark from "$lib/assets/wordmark-sticker.svg";
   import linkOutArrow from "$lib/assets/arrow-up-right.svg";
-  import Story from "$lib/components/Footer.Story.svelte";
+  import Story from "$lib/components/Story.svelte";
 
   let stories = $state([]);
   let storyCount = $state(0);
@@ -12,10 +12,10 @@
   let { recirc = false, recent = true, recircImages = false } = $props();
 
   const v = Date.now();
-  const url = `https://pudding.cool/assets/data/stories.json?v=${v}`;
+  const url = `https://vermont.github.io/assets/data/stories.json?v=${v}`;
 
   const about = [
-    { name: "Our Team", url: "https://pudding.cool/" },
+    { name: "Our Team", url: "https://vermontcomplexsystems.org/people/core-team/" },
   ];
 
   const follow = [
@@ -52,7 +52,7 @@
 <footer>
   <div class="c">
     <div class="top">
-      <!-- {#if recirc && stories.length}
+      {#if recirc && stories.length}
         {#if recircImages}
           <section class="images">
             <ul>
@@ -71,14 +71,15 @@
             {/each}and more.
           </section>
         {/if}
-      {/if} -->
+      {/if}
     </div>
     <div class="bottom">
+      <div class="cta-wrapper">
+      </div>
+
       <section class="links">
         <div class="img-wrapper">
-          <a href="https://pudding.cool" aria-label="The Pudding" target="_self">
-      		<img src={wordmark} alt="The Pudding" />
-    	</a>
+          <div class="wordmark"> <img src={wordmark} alt="The Pudding" /> </div>
         </div>
         <div class="inner">
           <div class="about">
@@ -164,6 +165,21 @@
     gap: 48px;
   }
 
+  .cta-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+  }
+
+  /* .cta-wrapper section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  } */
+
   .links {
     width: 100%;
     min-width: 300px;
@@ -201,6 +217,10 @@
     text-decoration: 2px underline var(--color-link-hover);
   }
 
+  /* a:hover + .arrow {
+    left: -2px;
+  } */
+
   :global(a:hover + .arrow svg path) {
     stroke: var(--color-link-hover, blue);
   }
@@ -219,7 +239,6 @@
     font-size: var(--14px);
   }
 
-
   .img-wrapper {
     width: 100%;
     max-width: 160px;
@@ -235,6 +254,25 @@
     height: auto;
   }
 
+  .wordmark {
+    transform: rotate(var(--left-tilt, -2deg));
+    max-width: 360px;
+    transition: transform calc(var(--1s) * 0.25);
+  }
+
+  .wordmark:hover {
+    transform: rotate(0) scale(1.05);
+  }
+
+  /* .arrow {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    left: -4px;
+    transition: left calc(var(--1s) * 0.25);
+  } */
 
   @media only screen and (min-width: 400px) {
     .images ul li {
@@ -251,6 +289,20 @@
       gap: 48px;
     }
 
+    .cta-wrapper {
+      width: 66.66%;
+      flex-direction: column;
+      gap: 48px;
+    }
+
+    /* .cta-wrapper section {
+      width: 100%;
+      flex-direction: row;
+      gap: 24px;
+    } */
+
+
+
     .img-wrapper {
       width: 33.33%;
       max-width: 160px;
@@ -266,6 +318,12 @@
       font-size: var(--16px, 16px);
     }
 
+    /* .arrow {
+      width: 24px;
+      height: 24px;
+      top: 6px;
+      left: -4px;
+    } */
 
     .images ul li {
       width: calc(25% - 24px);
@@ -278,6 +336,12 @@
   }
 
   @media only screen and (min-width: 960px) {
+    .cta-wrapper {
+      width: 66.66%;
+      flex-direction: row;
+      gap: 48px;
+    }
+
 
     .img-wrapper {
       max-width: none;
@@ -289,7 +353,6 @@
       max-width: none;
       height: 180px;
     }
-
 
     .text {
       font-size: var(--28px, 28px);

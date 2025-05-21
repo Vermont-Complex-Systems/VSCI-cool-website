@@ -98,7 +98,7 @@ Located in `src/components`.
 
 ```js
 // Usage
-import Example from "$components/Example.svelte";
+import Example from "$lib/components/Example.svelte";
 ```
 
 * `Footer.svelte`: Pudding recirculation and social links.
@@ -110,7 +110,7 @@ Located in `src/components/helpers`.
 
 ```js
 // Usage
-import Example from "$components/helpers/Example.svelte";
+import Example from "$lib/components/helpers/Example.svelte";
 ```
 
 *Available*
@@ -143,7 +143,7 @@ Starter templates for various chart types to be used with [LayerCake](https://la
 
 ```js
 // Usage
-import Example from "$components/layercake/Example.svelte";
+import Example from "$lib/components/layercake/Example.svelte";
 ```
 
 ### Actions
@@ -183,7 +183,7 @@ Located in `src/utils/`.
 
 ```js
 // Usage
-import example from "$utils/example.js";
+import example from "$lib/utils/example.js";
 ```
 * `checkScrollDir.js`: Gets the user's scroll direction ("up" or "down")
 * `csvDownload.js`: Converts a flat array of data to CSV content ready to be used as an `href` value for download.

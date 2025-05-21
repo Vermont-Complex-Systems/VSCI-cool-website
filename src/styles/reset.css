@@ -25,16 +25,9 @@ mark {
 	padding: 0 4px;
 }
 
-a, a:visited {
+a {
 	color: var(--color-link, blue);
-	text-decoration-line: underline;
-	text-decoration-style: solid;
-	text-decoration-color: var(--color-link, blue);
-	text-decoration-thickness: 2px;
-}
-
-a:hover {
-	color: var(--color-link-hover, blue);
+	text-decoration: 2px underline var(--color-link, blue);
 }
 
 

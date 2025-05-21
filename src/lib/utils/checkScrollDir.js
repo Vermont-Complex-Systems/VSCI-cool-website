@@ -1,6 +1,6 @@
 /* Usage
 <script>
-import checkScrollDir from "$utils/checkScrollDir.js";
+import checkScrollDir from "$lib/utils/checkScrollDir.js";
 let scrollY;
 $: scrollDir = checkScrollDir(scrollY);
 $: console.log(scrollDir)
