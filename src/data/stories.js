@@ -27,7 +27,7 @@ const clean = data
     author: strToArray(d.author),
     keyword: strToArray(d.keyword),
     filters: addFaves(strToArray(d.filters), d.faves),
-    href: d.url_alt || `https://jstonge.github.io/${d.url}`
+    href: d.url_alt || `https://vermont-complex-systems.github.io/${d.url}`
   }))
   .filter((d) => !d.hide_all)
   .map((d, i) => ({
