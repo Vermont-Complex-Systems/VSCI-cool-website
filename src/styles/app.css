@@ -7,8 +7,8 @@
 :root {
 	/* font */
 	--sans: "Lora", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
-	--serif: "Tiempos Text", Iowan Old Style, Times New Roman, Times, serif;
-	--mono: "Atlas Typewriter", Menlo, Consolas, Monaco, monospace;
+	--serif: "Acumin Pro", Iowan Old Style, Times New Roman, Times, serif;
+	--mono: "Acumin Pro", Menlo, Consolas, Monaco, monospace;
 
 	/* z-index */
 	--z-bottom: -100;
