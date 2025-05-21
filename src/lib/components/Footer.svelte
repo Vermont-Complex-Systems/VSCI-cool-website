@@ -79,7 +79,7 @@
 
       <section class="links">
         <div class="img-wrapper">
-          <div class="wordmark"> <img src={wordmark} alt="The Pudding" /> </div>
+          <div class="wordmark"> <img src={wordmark} alt="The VCSI" /> </div>
         </div>
         <div class="inner">
           <div class="about">

@@ -29,7 +29,7 @@
       <a href="{base}/author/{author.slug}">
         <img src="{base}/common/assets/authors/{author.id}.jpg" alt="headshot of {author.name}" />
         <p class="name">{author.name}</p>
-        <p class="title">Pudding Staff</p>
+        <p class="title">VCSI Staff</p>
       </a>
     </div>
   {/if}

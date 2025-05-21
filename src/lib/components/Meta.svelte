@@ -8,11 +8,11 @@
 <svelte:head>
   <title>{copy.title}</title>
   <meta name="description" content={copy.description} />
-  <meta name="author" content="The Pudding" />
+  <meta name="author" content="The VCSI" />
   <meta name="news_keywords" content={copy.keywords || ""} />
 
   <meta property="og:title" content={copy.title} />
-  <meta property="og:site_name" content="The Pudding" />
+  <meta property="og:site_name" content="The VCSI" />
   <meta property="og:url" content={url} />
   <meta property="og:description" content={copy.description} />
   <meta property="og:type" content="article" />

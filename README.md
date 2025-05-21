@@ -4,7 +4,7 @@ _We adapted this starter pack from https://github.com/the-pudding/svelte-starter
 
 **NOTE**: This uses Svelte 5 and is under active migration (not all features will work)..
 
-This [starter template](https://github.com/the-pudding/svelte-starter) aims to quickly scaffold a [SvelteKit](https://kit.svelte.dev/) project, designed around data-driven, visual stories at [The Vermont Complex System Institute](vermont-complex-systems.github.io/VSCI-cool-website/).
+This [starter template](https://github.com/Vermont-Complex-Systems/svelte-starter) aims to quickly scaffold a [SvelteKit](https://kit.svelte.dev/) project, designed around data-driven, visual stories at [The Vermont Complex System Institute](https://vermont-complex-systems.github.io/VSCI-cool-website/).
 
 ### Notes
 * _Do not use or reproduce VCSI logos or fonts without written permission._
@@ -23,7 +23,7 @@ This [starter template](https://github.com/the-pudding/svelte-starter) aims to q
 ## Quickstart
 #### From Scratch
 * Click the green `Use this template` button above.
-* Alternatively: `npx degit the-pudding/svelte-starter my-project`
+* Alternatively: `npx degit Vermont-Complex-Systems/svelte-starter my-project`
 
 #### Pre-existing Project
 * clone the repo
@@ -49,11 +49,6 @@ This generates a directory called `build` with the statically rendered app.
 A shortcut for github pages:
 ```bash
 make github
-```
-
-Deploying to Pudding AWS:
-```bash
-make pudding
 ```
 
 ## Style
@@ -101,8 +96,8 @@ Located in `src/components`.
 import Example from "$lib/components/Example.svelte";
 ```
 
-* `Footer.svelte`: Pudding recirculation and social links.
-* `Header.svelte`: Pudding masthead.
+* `Footer.svelte`: VSCI recirculation and social links.
+* `Header.svelte`: VCSI masthead.
 
 ### Helper Components
 

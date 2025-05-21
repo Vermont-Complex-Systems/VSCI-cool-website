@@ -11,7 +11,7 @@
   const staff = authors.filter((d) => d.position === "Staff");
 
   // hack to get contributors in details list form in copy
-  const contributors = authors.filter((d) => d.position !== "Staff" && d.id !== "pudding");
+  const contributors = authors.filter((d) => d.position !== "Staff" && d.id !== "vcsi");
   contributors.sort((a, b) => ascending(a.name, b.name));
   copy.contributors.detailsList = contributors.map(({ slug, name }) => {
     return `<a href="/author/${slug}">${name}</a>`;
@@ -31,9 +31,6 @@
       <h2 class="hed-dek">{hed}</h2>
     {/if}
 
-    {#if id === "awards"}
-      <Awards />
-    {/if}
 
     {#if Array.isArray(copy[id])}
       {#each copy[id] as { value }}

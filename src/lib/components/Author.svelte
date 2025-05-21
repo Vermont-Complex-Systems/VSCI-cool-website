@@ -9,7 +9,7 @@
   stories.sort((a, b) => descending(a.date, b.date));
 
   const { name, email, url, social, pronoun, position } = author;
-  const bio = author.bio || "is a contributor to The Pudding.";
+  const bio = author.bio || "is a contributor to The VCSI.";
 
   const pronounA = pronoun === "They" ? "them" : pronoun === "He" ? "him" : "her";
   const pronounB = pronoun === "They" ? "their" : pronoun === "He" ? "his" : "her";

@@ -33,23 +33,23 @@
         "detailsText": [
             {
                 "type": "text",
-                "value": "Visual essays are an emerging form of journalism. Some of the most complex, debated topics get lost in “too long; didn’t read” 10,000-word articles. Visual storytelling makes ideas more accessible—or so goes the adage “a picture is worth a thousand words.”"
+                "value": "Visual essays are an emerging form of journalism. But they are also finding a new place in science, helping to disseminate key scientific results to broader audiences."
             },
             {
                 "type": "text",
-                "value": "We believe in journalism that denounces false equivalence, one that can explicitly say Black Lives Matter, one that never views human rights as partisan issues, and one that believes a person's own experiences are central to strong storytelling."
+                "value": "We believe that scientific results must be brought to the public in a way that is accessible and engaging. We cannot wait until scientific facts to spread by themselves."
             },
             {
                 "type": "text",
-                "value": "We hope to be a place that centers and amplifies voices that have long been ignored. We strive for our journalism to be one of key making, not gate keeping, and we won't shy away from stories that tackle racism, sexism, and classism head on."
+                "value": "We draw extensively form The Pudding Philosophy, sharing with them their ideals. We seek to do something similar with them in our own ways."
             },
             {
                 "type": "text",
-                "value": "We are committed to listening, learning, making changes, and being proactive in the fight for equity, inclusion, and racial and social justice."
+                "value": "We are committed to rigorous research and analysis that help societies to become better."
             },
             {
                 "type": "text",
-                "value": "We're a small group that operates as a collective rather than hierarchical team."
+                "value": "We're an institute that operates as a collective rather than hierarchical team."
             },
             {
                 "type": "text",
@@ -57,24 +57,20 @@
             },
             {
                 "type": "text",
-                "value": "One luxury that separates us from traditional newsrooms is our approach to publishing urgency. There are no deadlines because we are not tied to news events. With breaking news, it's difficult to gamble on weird, ambitious ideas if they <em>must</em> be published. No one will take on risky, creative projects when they're staring at a deadline."
+                "value": "One luxury that separates us from traditional scientific publications is our approach to publishing urgency. With traditional papers, it's difficult to gamble on weird, ambitious ideas if they <em>must</em> be helping you to advance your career. No one will take on risky, creative projects when they're staring at obligatory publications."
             },
             {
                 "type": "text",
-                "value": "So we experiment, <em>a lot</em>. The creative process feels more like workshopping a movie script than critiquing a bar chart. Consequently, many of our ideas are killed during production, but we wouldn’t have it any other way! It means we’re trying unproven, never-done-before things."
-            },
-            {
-                "type": "text",
-                "value": "We're also trying to advance the craft. Visual journalism is still in its infancy. We don't have an established <a  href =https://en.wikipedia.org/wiki/Pattern_language>pattern language</a> found in traditional reporting. Sometimes we’ll attempt an unfamiliar visual approach—not because it's guaranteed to work, but because we won’t know until we try. Rarely do organizations have the liberty to take such risks, yet we’re small enough to experiment in the pursuit of quality."
+                "value": "We're also trying to combine science with the data journalism craft. Take for example survey data. One traditional way has been to collect data through surveys, but it is hard to reach people who don't want to waste time filling up boring surveys. We can use interactive data visualizations to collect data in an ethical way while motivating people to share their experiences."
             }
         ]
     },
     "etymology": {
-        "detailsSummary": "Why are you called “The Pudding?”",
+        "detailsSummary": "But what are complex systems?",
         "detailsText": [
             {
                 "type": "text",
-                "value": "See <a href=https://www.npr.org/2012/08/24/159975466/corrections-and-comments-to-stories>etymology</a>."
+                "value": "See <a href=https://vermontcomplexsystems.org/research/manifesto/>manifesto</a>."
             }
         ]
     },
@@ -84,7 +80,7 @@
         "detailsList": [
             {
                 "lead": "Jonathan",
-                "description": "Drawing from the Pudding to do his stuff"
+                "description": "Drawing from the Pudding to do his stuff, but work at the Vermont Complex Systems Institute."
             }
         ]
     },
@@ -97,21 +93,13 @@
     },
     "speaking": {
         "detailsSummary": "Interested in having us speak at your event?",
-        "detailsText": "We are a small team, so as much as we’d love to speak everywhere and to everyone that we’re invited, we just don’t have the time. If you’d like to invite us to your event, please send us a message at sup@pudding.cool. We are committed to creating meaningfully inclusive spaces, so we follow this <a href=https://opennews.org/projects/speaker-rider/ target=_blank>speaker rider</a> we co-developed with <a href=https://opennews.org/ target=_blank>OpenNews</a>."
-    },
-    "awards": {
-        "text": [
-            {
-                "type": "text",
-                "value": "We give out awards too! Check out our annual <a href=https://vermont-complex-systems.github.io/VSCI-cool-website/pudding-cup>Pudding Cup.</a>"
-            }
-        ]
+        "detailsText": "We are a small team, so as much as we’d love to speak everywhere and to everyone that we’re invited, we just don’t have the time. If you’d like to invite us to your event, please send us a message at Charlie.Brooks@uvm.edu. We are committed to creating meaningfully inclusive spaces, so we follow this <a href=https://opennews.org/projects/speaker-rider/ target=_blank>speaker rider</a> we co-developed with <a href=https://opennews.org/ target=_blank>OpenNews</a>."
     },
     "positions": {
         "text": [
             {
                 "type": "text",
-                "value": "If you’d like to be notified when we are hiring, sign up for our <a href=https://vermont-complex-systems.github.io/VSCI-cool-website/subscribe target=_blank>mailing list</a>. We have decided not to take on interns or cohort members for 2025. If you are interested in collaborating with us, the best way to do so is to <a href=https://vermont-complex-systems.github.io/VSCI-cool-website/pitch/>send us a pitch</a>."
+                "value": "If you’d like to be notified when we are looking for new students, sign up for our <a href=https://docs.google.com/forms/d/e/1FAIpQLSfRCOfDq3FCQwQqzN87y6LjtEqkEK80fZbGLMdLX6SqU_k2Tg/viewform target=_blank>mailing list</a>. We have decided not to take on interns or cohort members for 2025. If you are interested in collaborating with us, the best way to do so is to <a href=https://vermont-complex-systems.github.io/VSCI-cool-website/pitch/>send us a pitch</a>."
             }
         ],
         "detailsSummary": "What it’s like to work here",
@@ -153,46 +141,7 @@
     "contact": [
         {
             "type": "text",
-            "value": "For press enquiries,  get in touch at press@pudding.cool. For all other inquiries or comments, drop us a line at sup@pudding.cool."
+            "value": "For press enquiries,  get in touch at Charlie.Brooks@uvm.edu. For all other inquiries or comments, drop us a line at Charlie.Brooks@uvm.edu."
         }
-    ],
-    "studio": {
-        "text": [
-            {
-                "type": "text",
-                "value": "Interested in wielding The Pudding's power for your brand? Our team creates custom, white-labeled content via our award-winning visualization studio, <a href=https://polygraph.cool >Polygraph</a>."
-            },
-            {
-                "type": "text",
-                "value": "Send us an email at hi@polygraph.studio."
-            }
-        ],
-        "detailsSummary": "The relationship between The Pudding and Polygraph",
-        "detailsText": [
-            {
-                "type": "text",
-                "value": "You’ve probably noticed we don’t have any ads or subscription walls on The Pudding. However, we need to keep the lights on somehow. Enter: Polygraph."
-            },
-            {
-                "type": "text",
-                "value": "We run Polygraph with the purpose of sustaining our work on The Pudding. This allows The Pudding to operate in a purely journalistic space, giving us full creative autonomy on our articles. There’s no brand or client or advertisement contract controlling our Pudding projects, nor are we beholden to what gets the most page clicks. We just do what we think is interesting."
-            },
-            {
-                "type": "text",
-                "value": "Basically, the wall between The Pudding and Polygraph is a business model embodiment of the editorial/advertising wall in journalism. The Pudding cannot exist without Polygraph, and Polygraph would have no need to exist without The Pudding."
-            },
-            {
-                "type": "text",
-                "value": "The only time a brand finds its way on The Pudding is through sponsored posts, like <a href=https://congress.pudding.cool/ target=_blank>this one</a> we just did about congressional tweets with Saleforce’s Einstein API or <a href=https://vermont-complex-systems.github.io/VSCI-cool-website/2018/11/dearabby/ target=_blank>this one</a> about Dear Abby letters with IBM Watson. Sponsorship allows us to do what we think is interesting with tools we wouldn’t have access to otherwise."
-            },
-            {
-                "type": "text",
-                "value": "Despite being for-hire, we make sure our work at Polygraph does align with our mission at The Pudding: tell cool, public-facing stories with data and visuals, just for a purpose-aligned client rather than for… ourselves (and our moms)."
-            },
-            {
-                "type": "text",
-                "value": "Interested in wielding The Pudding’s power for your brand? Check out the Polygraph site <a href=https://polygraph.cool target=_blank>here</a>, and send us an email at hi@polygraph.studio."
-            }
-        ]
-    }
+    ]
 }

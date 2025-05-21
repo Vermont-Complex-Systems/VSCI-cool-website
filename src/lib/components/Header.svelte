@@ -41,8 +41,8 @@
     </p>
   </div>
   <div class="wordmark">
-		<a href="https://vermont-complex-systems.github.io/VSCI-cool-website/" aria-label="The Pudding" target="_self">
-      		<img src={wordmark} alt="The Pudding" />
+		<a href="https://vermont-complex-systems.github.io/VSCI-cool-website/" aria-label="The VCSI" target="_self">
+      		<img src={wordmark} alt="The VCSI" />
     	</a>
 	</div>
   <div class="menu">
