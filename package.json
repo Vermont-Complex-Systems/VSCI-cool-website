@@ -1,0 +1,49 @@
+{
+	"name": "svelte-starter",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"format": "prettier --write .",
+		"lint": "prettier --check . && eslint ."
+	},
+	"devDependencies": {
+		"@eslint/compat": "^1.2.9",
+		"@eslint/js": "^9.27.0",
+		"@sveltejs/adapter-static": "^3.0.8",
+		"@sveltejs/enhanced-img": "^0.6.0",
+		"@sveltejs/kit": "^2.21.1",
+		"@sveltejs/vite-plugin-svelte": "^5.0.3",
+		"eslint": "^9.27.0",
+		"eslint-config-prettier": "^10.1.5",
+		"eslint-plugin-svelte": "^3.8.2",
+		"globals": "^16.1.0",
+		"prettier": "^3.5.3",
+		"prettier-plugin-svelte": "^3.4.0",
+		"svelte": "^5.32.1",
+		"svelte-check": "^4.2.1",
+		"typescript": "^5.8.3",
+		"typescript-eslint": "^8.32.1",
+		"vite": "^6.3.5",
+		"vite-plugin-svgstring": "^1.0.0"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
+	},
+	"dependencies": {
+		"@duckdb/duckdb-wasm": "1.29.1-dev132.0",
+		"@rollup/plugin-dsv": "^3.0.5",
+		"d3": "^7.9.0",
+		"d3-scale": "^4.0.2",
+		"fs": "0.0.1-security",
+		"svelte-exmarkdown": "^5.0.1"
+	}
+}
