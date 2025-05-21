@@ -22,6 +22,8 @@
 	--font-form: var(--mono);
 	--color-bg: var(--color-white);
 	--color-fg: var(--color-gray-900);
+	--color-uvm-bg: var(--color-uvm-green);
+	--color-uvm-fg: var(--color-uvm-gold);
 	--color-primary: var(--color-black);
 	--color-link: var(--color-black);
 	--color-secondary-gray: var(--color-gray-600);

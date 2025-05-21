@@ -1,254 +1,136 @@
 <script>
   import { base } from "$app/paths";
-  import { fly, fade } from "svelte/transition";
   import wordmark from "$lib/assets/wordmark-sticker.svg";
   import Menu from "$lib/components/Header.Menu.svelte";
-  import copy from "$data/misc.json";
 
-  let visible = $state(false);
-  let index = $state(-1);
-  let tagline = $derived(copy.taglines[index] || "");
-  let menu;
-  let openBtnEl;
+  // State
+  let isMenuOpen = $state(false);
+  let menuRef;
+  let menuButtonRef;
 
-  function onClose(skip) {
-    visible = false;
-    openBtnEl.removeAttribute("aria-hidden");
-    if (!skip) openBtnEl.focus();
+  // Methods
+  function closeMenu(skipFocus = false) {
+    isMenuOpen = false;
+    menuButtonRef.removeAttribute("aria-hidden");
+    if (!skipFocus) menuButtonRef.focus();
   }
 
-  function onClickMenu() {
-    // console.log("click");
-    visible = true;
+  function openMenu() {
+    isMenuOpen = true;
   }
-
-  $effect(() => {
-    index = 0;
-    const i = setInterval(() => {
-      index += 1;
-      if (index >= copy.taglines.length) index = 0;
-    }, 5000);
-
-    return () => clearInterval(i);
-  });
 </script>
 
-<header class="column-wide">
-  <div class="stories">
-    <p>
-      <!-- {@html copy.taglinePre}...<br />
-      {#key index}<strong in:fly={{ delay: 200, duration: 500, y: 15 }}>{tagline}</strong>{/key} -->
-    </p>
+<header>
+  <!-- Empty space on left to balance layout -->
+  <div class="desktop-nav">
+    <!-- Intentionally empty for balance -->
   </div>
-  <div class="wordmark">
-		<a href="https://vermont-complex-systems.github.io/VSCI-cool-website/" aria-label="The VCSI" target="_self">
-      		<img src={wordmark} alt="The VCSI" />
-    	</a>
-	</div>
-  <div class="menu">
-    <ul>
-      <li>
-        <a href="{base}/about" aria-label="About" target="_self"
-          ><img src="{base}/assets/stickers/about@2x.png" alt="about sticker" /></a
-        >
-      </li>
 
-      <!-- <li>
-        <a
-          href="https://vermont-complex-systems.github.io/VSCI-cool-website/subscribe"
-          rel="external"
-          aria-label="subscribe"
-          target="_self"
-          ><img src="{base}/assets/stickers/subscribe@2x.png" alt="subscribe sticker" /></a
-        >
-      </li> -->
+  <!-- Logo centered -->
+  <div class="logo">
+    <a href="https://vermont-complex-systems.github.io/VSCI-cool-website/" aria-label="The VCSI">
+      <img src={wordmark} alt="The VCSI" />
+    </a>
+  </div>
 
-      <li>
-        <button
-          bind:this={openBtnEl}
-          onclick={onClickMenu}
-          aria-label="open menu"
-          aria-controls="nav-content"
-        >
-          <img src="{base}/assets/stickers/more@2x.png" alt="more sticker" />
-        </button>
-      </li>
-    </ul>
+  <!-- Menu buttons on right -->
+  <div class="menu-button">
+    <a href="{base}/about">About</a>
+    <a
+      href="#"
+      bind:this={menuButtonRef}
+      onclick={openMenu}
+      aria-label="Open menu"
+      aria-controls="nav-content"
+      class="more-link"
+    >
+      More
+    </a>
   </div>
 </header>
-<div class="column-wide">
-  <div class="stories stories-mobile">
-    <p>
-      {@html copy.taglinePre}...<br />
-      {#key index}<strong in:fly={{ delay: 200, duration: 500, y: 15 }}>{tagline}</strong>{/key}
-    </p>
-  </div>
-</div>
 
-<Menu {visible} bind:this={menu} close={onClose} />
+<!-- Mobile menu component -->
+<Menu visible={isMenuOpen} bind:this={menuRef} close={closeMenu} />
 
 <style>
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: var(--sans);
-    padding-top: 32px;
-    padding-bottom: 16px;
-    margin: 0 auto 24px auto;
-    max-height: 100px;
-    margin-bottom: 0;
+    padding: 2rem 1rem 2.5rem; /* Increased bottom padding for logo */
+    max-width: var(--content-width, 1200px);
+    margin: 0 auto;
+    position: relative; /* For absolute positioning of logo */
   }
 
-  header > div {
-    width: 30%;
+  .logo {
+    max-width: 200px;
+    transition: transform 0.25s ease;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0; /* Ensure logo is behind text if they overlap */
   }
 
-  .menu {
-    max-width: 100px;
+  .logo:hover {
+    transform: translateX(-50%) rotate(-2deg) scale(1.05);
   }
 
-  ul {
-    padding: 0;
+  .logo a {
+    display: block;
+    border: none;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Space for left and right sides */
+  .desktop-nav,
+  .menu-button {
+    width: 25%;
+    z-index: 1; /* Ensure they're above the logo */
+  }
+  
+  /* Right align menu button */
+  .menu-button {
+    text-align: right;
     display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
     align-items: center;
   }
 
-  li {
-    list-style-type: none;
-    width: 100%;
-    transition: transform calc(var(--1s) * 0.25);
-  }
-
-  li:hover {
-    transform: rotate(var(--right-tilt)) scale(1.05);
-  }
-
-  li a {
-    display: block;
-    max-width: 150px;
-  }
-
-  li:nth-of-type(1) {
-    transform: rotate(var(--left-tilt));
-  }
-
-  li:nth-of-type(3) {
-    transform: rotate(var(--right-tilt));
-  }
-
-  li:nth-of-type(3):hover {
-    transform: rotate(var(--right-tilt-double)) scale(1.05);
-  }
-
-  li:nth-of-type(1):hover {
-    transform: rotate(0deg) scale(1.05);
-  }
-
-  li:nth-of-type(2) {
-    width: 40%;
-    display: none;
-  }
-
-  li:nth-of-type(1) {
-    display: none;
-  }
-
-  .stories {
-    display: none;
-  }
-
-  .stories-mobile {
-    display: block;
-    font-family: var(--sans);
-    margin-bottom: 64px;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  .stories p {
-    margin: 0;
-    font-size: var(--14px);
-    line-height: 1.325;
-  }
-
-  .stories strong {
+  .menu-button a {
+    text-decoration: none;
+    color: var(--color-fg, #000);
+    font-weight: 500;
+    transition: transform 0.25s ease;
     display: inline-block;
   }
 
-  .wordmark {
-    width: 200px;
-    margin: 0 0 0 -16px;
-    transform: rotate(-4deg);
-    display: flex;
-    justify-content: start;
-    transition: transform calc(var(--1s) * 0.25);
+  .menu-button a:hover {
+    transform: rotate(2deg) scale(1.05);
   }
 
-  .wordmark:hover {
-    transform: rotate(var(--left-tilt)) scale(1.05);
-  }
-
-  .wordmark a {
-    border: none;
-    display: block;
-    color: var(--color-fg);
-    max-width: 16em;
-  }
-
-  .wordmark a:hover {
-    background-color: transparent;
-  }
-
-  button {
-    background: none;
-    border: none;
-    padding: 0;
-    line-height: 1;
-  }
-
-  @media only screen and (min-width: 600px) {
-    .wordmark {
-      width: 40%;
-    }
-    li {
-      width: 33.33%;
-    }
-
-    li:nth-of-type(2) {
-      width: 50%;
-    }
-
-    .menu {
-      width: 350px;
-      max-width: none;
-    }
-    li:nth-of-type(1),
-    li:nth-of-type(2) {
-      display: inline-block;
-    }
-    .stories-mobile {
-      text-align: left;
-      transform: translate(0, 5px);
-    }
-  }
-
-  @media only screen and (min-width: 960px) {
-    .stories {
-      display: inline-block;
-      max-width: 300px;
-    }
-    .stories-mobile {
-      display: none;
-    }
-    .wordmark {
-      margin: 0 auto;
-      justify-content: center;
-    }
+  /* Mobile styles */
+  @media (max-width: 768px) {
     header {
-      margin-bottom: 24px;
+      padding-bottom: 1.5rem; /* Less bottom padding on mobile */
+    }
+    
+    .desktop-nav,
+    .menu-button {
+      width: auto;
+    }
+    
+    .logo {
+      max-width: 150px; /* Smaller on mobile */
+    }
+    
+    .menu-button {
+      gap: 1rem;
     }
   }
-
-
 </style>
