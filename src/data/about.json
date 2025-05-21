@@ -89,59 +89,27 @@
     },
     "officeHours": {
         "detailsSummary": "Sign up for office hours with us",
-        "detailsText": "We want to share what we’ve learned, and empower people to make great stuff of their own. So whether you’re a seasoned vet or just starting out, come <a href=https://docs.google.com/document/d/1vcFU8-b-8fURSSB8nCJRmhXsaRmfXAc2vWkuGbA5dRk/>chat with us</a>!"
-    },
-    "speaking": {
-        "detailsSummary": "Interested in having us speak at your event?",
-        "detailsText": "We are a small team, so as much as we’d love to speak everywhere and to everyone that we’re invited, we just don’t have the time. If you’d like to invite us to your event, please send us a message at Charlie.Brooks@uvm.edu. We are committed to creating meaningfully inclusive spaces, so we follow this <a href=https://opennews.org/projects/speaker-rider/ target=_blank>speaker rider</a> we co-developed with <a href=https://opennews.org/ target=_blank>OpenNews</a>."
+        "detailsText": "We want to share what we’ve learned, and empower people to make great stuff of their own. So whether you’re a seasoned vet or just starting out, come <a href=https://discord.gg/BrMuxRaM>chat with us on Discord</a>!"
     },
     "positions": {
         "text": [
             {
                 "type": "text",
-                "value": "If you’d like to be notified when we are looking for new students, sign up for our <a href=https://docs.google.com/forms/d/e/1FAIpQLSfRCOfDq3FCQwQqzN87y6LjtEqkEK80fZbGLMdLX6SqU_k2Tg/viewform target=_blank>mailing list</a>. We have decided not to take on interns or cohort members for 2025. If you are interested in collaborating with us, the best way to do so is to <a href=https://vermont-complex-systems.github.io/VSCI-cool-website/pitch/>send us a pitch</a>."
+                "value": "If you’d like to be notified when we are looking for new students, sign up for our <a href=https://docs.google.com/forms/d/e/1FAIpQLSfRCOfDq3FCQwQqzN87y6LjtEqkEK80fZbGLMdLX6SqU_k2Tg/viewform target=_blank>mailing list</a>. See <a href=https://www.uvm.edu/graduate/prospective_student_resources>here</a> for more details on being a prospective student at University of Vermont."
             }
         ],
-        "detailsSummary": "What it’s like to work here",
+        "detailsSummary": "What it’s like to study/work here",
         "detailsList": [
             {
-                "lead": "This is a making-it-up-as-we-go, building-the-plane-in-the-air type of organization.",
-                "description": "Look to us if you want a small, startup feel that’s buzzing with possibility. This is different than other newsrooms that have hierarchies and an established \"how-we-do-things,\" decades-old process."
-            },
-            {
-                "lead": "You want to be involved in building something new.",
-                "description": "Yes, we publish essays, yet plenty of energy goes into perfecting a creative process that’s still in its infancy. As part of a small team, your opinion matters a lot."
-            },
-            {
-                "lead": "You crave autonomy rather than taking direction.",
-                "description": "There are plenty of organizations where you can slot into a well-oiled, historically prestigious machine. You'll get an editor, a process, and story assignments. But that also comes with baggage, particularly the creeping conservatism that <a href=https://medium.com/@tonyszhou/postmortem-1b338537fabc>often accompanies success</a>. This is pretty much the opposite: what you make emerges from your own burning desires—ideas gestating in the back of your head for months (or years!) that you’ve never had the latitude to explore."
-            },
-            {
-                "lead": "You're over making noise.",
-                "description": "We want you to pick projects that don't live and die by the news cycle. You want your work to have a multi-year lifespan. The Pudding underwrites your research interests (go read all the books!) and gives you time (and financial stability) to explore them."
-            },
-            {
-                "lead": "Creativity is not a solitary endeavor.",
-                "description": "If you’re working solo, we’ll give you an editor, or design resources, or coding help. Whatever it takes to execute your vision. What matters is that we help you understand what readers will feel and keep you motivated."
-            },
-            {
-                "lead": "Craft matters.",
-                "description": "We are building tools that make visual storytelling easier. Yet instead of making something for everyone, our tools begin with one group of users: ourselves. Building for general consumer adoption is a noble pursuit, but there’s <a target_blank href=http://snarkmarket.com/2011/7320>something special</a> that happens when a toolmaker builds something for their own creative ambitions."
-            },
-            {
-                "lead": "You’re keen on building a following.",
-                "description": "Most of us started doing this work “on the side,” often on a personal blog. You may have experience wielding your own voice and the thrill of finding readers. We don’t want that to be lost by “getting hired” somewhere. Each person needs to have an identity that they'd otherwise cultivate independently."
-            },
-            {
-                "lead": "We calibrate our salaries against interactive journalist and data visualization roles.",
-                "description": "We recognize that our skill sets are not the same as prose-based journalists, and we ensure that folks joining our mission aren’t taking a paycut from the tech world."
+                "lead": "We seek to be transdisciplinary while being mindful of boundaries.",
+                "description": "It is tricky to collaborate in university settings, as departments are often siloed. But having an institute like we have help us draw bridges across departments. While we combine insights from different fields, we also appreciate the differences."
             }
         ]
     },
     "contact": [
         {
             "type": "text",
-            "value": "For press enquiries,  get in touch at Charlie.Brooks@uvm.edu. For all other inquiries or comments, drop us a line at Charlie.Brooks@uvm.edu."
+            "value": "For enquiries about this website, get in touch at jonathan.st-onge@uvm.edu. For all other inquiries or comments, drop us a line at Charlie.Brooks@uvm.edu."
         }
     ]
 }
