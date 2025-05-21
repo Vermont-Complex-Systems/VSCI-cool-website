@@ -17,6 +17,7 @@ This [starter template](https://github.com/Vermont-Complex-Systems/svelte-starte
 - [Style Dictionary](https://amzn.github.io/style-dictionary/) for CSS/JS style parity
 - [Runed](https://runed.dev/docs) for svelte5 rune utilities
 - [svelte-exmarkdown](https://www.npmjs.com/package/svelte-exmarkdown) for markdown parsing.
+- [duckdb-wasm](https://duckdb.org/docs/stable/clients/wasm/overview.html) for in-browser analytics.
 - CSV, JSON, and SVG imports
 - SSR static-hosted builds by default
 
