@@ -1,6 +1,6 @@
 <script>
   import { base } from "$app/paths";
-  import wordmark from "$lib/assets/wordmark-sticker.svg";
+  import Roboctopus from "$lib/assets/Roboctopus_transparent.png";
   import Menu from "$lib/components/Header.Menu.svelte";
 
   // State
@@ -29,7 +29,7 @@
   <!-- Logo centered -->
   <div class="logo">
     <a href="https://vermont-complex-systems.github.io/VSCI-cool-website/" aria-label="The VCSI">
-      <img src={wordmark} alt="The VCSI" />
+      <img src={Roboctopus} alt="The VCSI" />
     </a>
   </div>
 
@@ -57,18 +57,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 1rem 2.5rem; /* Increased bottom padding for logo */
+    padding: 2rem 1rem 3.5rem; /* Increased bottom padding for logo */
     max-width: var(--content-width, 1200px);
     margin: 0 auto;
     position: relative; /* For absolute positioning of logo */
   }
 
   .logo {
-    max-width: 200px;
+    max-width: 105px;
     transition: transform 0.25s ease;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(20%);
     z-index: 0; /* Ensure logo is behind text if they overlap */
   }
 

@@ -2,7 +2,7 @@
   import { base } from "$app/paths";
   import { onMount } from "svelte";
   import { shuffle } from "d3";
-  import wordmark from "$lib/assets/wordmark-sticker.svg";
+  import Roboctopus from "$lib/assets/Roboctopus_transparent.png";
   import linkOutArrow from "$lib/assets/arrow-up-right.svg";
   import Story from "$lib/components/Story.svelte";
 
@@ -79,7 +79,7 @@
 
       <section class="links">
         <div class="img-wrapper">
-          <div class="wordmark"> <img src={wordmark} alt="The VCSI" /> </div>
+          <div class="wordmark"> <img src={Roboctopus} alt="The VCSI" /> </div>
         </div>
         <div class="inner">
           <div class="about">
@@ -255,14 +255,11 @@
   }
 
   .wordmark {
-    transform: rotate(var(--left-tilt, -2deg));
-    max-width: 360px;
+    transform: rotate(var(--left-tilt, -2deg)) translateX(-25%);
+    max-width: 200px;
     transition: transform calc(var(--1s) * 0.25);
   }
 
-  .wordmark:hover {
-    transform: rotate(0) scale(1.05);
-  }
 
   /* .arrow {
     display: inline-block;
