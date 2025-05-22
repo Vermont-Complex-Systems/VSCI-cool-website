@@ -29,10 +29,6 @@
     f.sort((a, b) => descending(a.id, b.id));
     const sliced = f.slice(0, maxStories);
 
-    sliced.splice(7, 0, { component: "Subscribe", slug: "Subscribe" });
-    sliced.splice(15, 0, { component: "Faves", slug: "Faves" });
-    sliced.splice(26, 0, { component: "Merch", slug: "Merch" });
-
     return sliced;
   });
 

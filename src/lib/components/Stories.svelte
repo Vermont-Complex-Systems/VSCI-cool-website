@@ -1,9 +1,5 @@
 <script>
   import Story from "$lib/components/Story.svelte";
-  import Subscribe from "$lib/components/Story.Subscribe.svelte";
-  import Merch from "$lib/components/Story.Merch.svelte";
-  import Faves from "$lib/components/Story.Faves.svelte";
-  const components = { Subscribe, Faves, Merch };
 
   let { stories, resource = false } = $props();
 </script>
@@ -11,13 +7,8 @@
 <section id="stories">
   <ul>
     {#each stories as story (story.slug)}
-      {@const C = components[story.component]}
       <li>
-        {#if C}
-          <C {...story}></C>
-        {:else}
-          <Story {...story} {resource} />
-        {/if}
+        <Story {...story} {resource} />
       </li>
     {/each}
   </ul>
